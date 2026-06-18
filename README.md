@@ -1,8 +1,23 @@
 # Knowledge Forge
 
+[![test](https://github.com/indyforge/knowledge-forge/actions/workflows/test.yml/badge.svg)](https://github.com/indyforge/knowledge-forge/actions/workflows/test.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 Knowledge Forge is a local-first maintainer workbench for source-backed Markdown archives and auditable agent-assisted workflows.
 
 The public `v0.1` scaffold focuses on one small, testable core: capture a local HTML source into a Markdown note and JSON manifest while preserving provenance. It is intentionally narrow so the project can grow from a reliable public base.
+
+## Project Status
+
+This repository is an early public base for a maintainer-oriented workflow. It prioritizes a narrow, verified core over broad automation:
+
+- source-backed capture with manifests and hashes,
+- public fixture tests and GitHub Actions,
+- repo-local `AGENTS.md` and `.agents/skills/` workflows,
+- explicit write boundaries for local-first use,
+- and reviewable Markdown outputs.
+
+See [CODEX_FOR_OSS.md](CODEX_FOR_OSS.md) for the Codex for Open Source fit and API credit plan.
 
 ## Why This Exists
 

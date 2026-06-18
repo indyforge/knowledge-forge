@@ -1,0 +1,35 @@
+name: Maintainer workflow
+description: Propose or refine an issue triage, PR review, release, or provenance workflow.
+title: "[Workflow]: "
+labels: ["workflow"]
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow
+      description: Which maintainer task should this improve?
+      placeholder: Issue triage, PR review, release review, source-backed briefing, docs audit, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Inputs and sources
+      description: What source material, repository files, fixtures, or GitHub context should the workflow use?
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Desired output
+      description: What artifact should the workflow produce, and how should it expose assumptions or missing evidence?
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Safety boundaries
+      options:
+        - label: The workflow can keep writes explicit and local.
+        - label: The workflow can avoid private paths, cookies, tokens, and local database contents.
+        - label: The workflow can preserve source links, timestamps, hashes, or missing-evidence labels.
