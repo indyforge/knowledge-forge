@@ -1,0 +1,26 @@
+{
+  "name": "knowledge-forge",
+  "version": "0.1.0",
+  "description": "Local-first maintainer workbench for source-backed Markdown archives and auditable agent-assisted workflows.",
+  "type": "module",
+  "bin": {
+    "knowledge-forge": "./bin/knowledge-forge.mjs"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check bin/knowledge-forge.mjs && node --check src/capture/*.mjs && node --check tests/*.test.mjs",
+    "smoke": "node bin/knowledge-forge.mjs capture-file fixtures/simple-article/input.html --out .tmp/capture --source-url https://example.com/maintainer-thread"
+  },
+  "keywords": [
+    "ai-agents",
+    "developer-tools",
+    "knowledge-management",
+    "local-first",
+    "open-source",
+    "maintainer-tools"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
