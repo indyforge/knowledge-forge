@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security reports
+    url: https://github.com/indyforge/knowledge-forge/security/policy
+    about: Please report private security or privacy issues using the security policy.
