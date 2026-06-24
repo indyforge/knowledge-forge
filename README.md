@@ -19,6 +19,8 @@ This repository is an early public base for a maintainer-oriented workflow. It p
 
 See [CODEX_FOR_OSS.md](CODEX_FOR_OSS.md) for the Codex for Open Source fit and API credit plan.
 
+See [docs/positioning.md](docs/positioning.md) for how Knowledge Forge fits alongside larger RAG, agent, and auto-wiki systems.
+
 ## Why This Exists
 
 Maintainers spend a lot of time on context work: reading issues, checking sources, reviewing changes, preparing releases, and remembering why decisions were made. AI can help, but only if outputs remain tied to sources and can be audited later.
@@ -31,6 +33,8 @@ Knowledge Forge keeps the evidence visible:
 - local artifacts,
 - missing-evidence labels,
 - and Markdown notes that remain readable without a database.
+
+It is deliberately not a full enterprise RAG or auto-wiki platform. Those systems are useful proof that source-backed knowledge workflows matter, but Knowledge Forge starts one layer lower: it focuses on the maintainer evidence trail that should exist before an agent writes a summary, a review, a release note, or a wiki page.
 
 ## Quickstart
 
@@ -96,6 +100,10 @@ This repo includes:
 - `AGENTS.md` for Codex and other coding agents,
 - `.agents/skills/` for repeatable maintainer workflows,
 - and GitHub Actions for test and syntax verification.
+
+## Positioning
+
+The open-source AI knowledge-tooling landscape is moving quickly, with large projects exploring RAG, agentic Q&A, and auto-generated wiki surfaces. Knowledge Forge is intentionally narrower: it aims to make source capture, provenance, evidence gaps, and reviewable maintainer artifacts reliable before adding broader automation.
 
 ## License
 

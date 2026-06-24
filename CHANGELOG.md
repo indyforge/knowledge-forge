@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Add market positioning notes for Knowledge Forge beside larger RAG, agent, and auto-wiki systems.
+- Clarify the Codex for OSS fit as a maintainer provenance layer rather than a broad document-chat platform.
+
 ## 0.1.0 - 2026-06-19
 
 - Add dependency-free Node CLI scaffold.
