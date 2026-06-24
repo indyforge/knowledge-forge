@@ -17,6 +17,12 @@ The repository is designed around these maintainer needs:
 
 The near-term goal is not to replace maintainers. It is to make AI-assisted maintainer work reproducible, source-backed, and easier to review.
 
+## Market Context
+
+The OSS ecosystem is seeing rapid growth in RAG, agentic Q&A, and auto-wiki projects. That validates the broader need for AI systems that can turn scattered source material into usable knowledge. Knowledge Forge takes a narrower maintainer-first position: before a project asks an agent to answer, review, or publish, it should preserve the source trail, evidence gaps, local artifacts, and write boundaries that make the result auditable.
+
+This makes the repository complementary to larger knowledge platforms. It is not trying to be a hosted knowledge base, an enterprise search stack, or a full auto-wiki product at `v0.1`. It is building the small provenance layer that maintainers can trust before they let automation touch issue triage, pull request review, release notes, or documentation updates.
+
 ## Current Public Signals
 
 The public repository currently includes:
@@ -30,6 +36,8 @@ The public repository currently includes:
 - repo-local skills for capture verification, maintainer briefs, PR draft summaries, and release review.
 
 This is a new public project, so broad adoption metrics such as stars, forks, and downloads are not yet the strongest signal. The stronger signal is the maintainer workflow design: the repo is already structured around review, triage, release, provenance, and explicit safety boundaries.
+
+The repository now also documents its market positioning and intentionally narrow scope so reviewers can distinguish it from broader RAG platforms: the public value is not "another chat over documents" but a source-backed maintainer workflow that keeps agent assistance reviewable.
 
 ## API Credit Plan
 
